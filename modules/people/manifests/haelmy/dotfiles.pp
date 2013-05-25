@@ -8,7 +8,7 @@ class people::haelmy::dotfiles {
 
   file { "${home}/.gitconfig":
     ensure  => link,
-    target  => "${dotfiles_dir}/.gitconfig",
+    target  => "${dotfiles_dir}/gitconfig",
     require => Repository[$dotfiles_dir] 
   }
 }
