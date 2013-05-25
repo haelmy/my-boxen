@@ -99,6 +99,11 @@ GITHUBTARBALL
     alfred (1.0.3)
 
 GITHUBTARBALL
+  remote: haelmy/puppet-wuala
+  specs:
+    wuala (0.0.1)
+
+GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
   specs:
     stdlib (4.0.2)
@@ -125,4 +130,5 @@ DEPENDENCIES
   stdlib (= 4.0.2)
   sudo (= 1.0.0)
   textmate (= 1.1.0)
+  wuala (= 0.0.1)
 

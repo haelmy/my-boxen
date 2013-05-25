@@ -7,4 +7,5 @@ class people::haelmy::applications
   include alfred
   include colloquy
   include keepassx
+  include wuala
 }
