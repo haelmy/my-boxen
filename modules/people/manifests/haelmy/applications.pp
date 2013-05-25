@@ -5,4 +5,5 @@ class people::haelmy::applications
   include textmate::textmate2::release
   include textmate::commandline
   include alfred
+  include colloquy
 }

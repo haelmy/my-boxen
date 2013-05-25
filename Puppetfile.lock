@@ -9,6 +9,11 @@ GITHUBTARBALL
     chrome (1.1.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-colloquy
+  specs:
+    colloquy (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (1.0.0)
@@ -97,6 +102,7 @@ DEPENDENCIES
   alfred (= 1.0.3)
   boxen (= 2.1.0)
   chrome (= 1.1.0)
+  colloquy (= 1.0.0)
   dnsmasq (= 1.0.0)
   gcc (= 1.0.0)
   git (= 1.2.2)
