@@ -42,5 +42,6 @@ github "iterm2", "1.0.2"
 github "textmate", "1.1.0"
 github "colloquy", "1.0.0"
 github "alfred", "1.0.3", :repo => "haelmy/puppet-alfred"
+github "keepassx", "1.0.0"
 
 

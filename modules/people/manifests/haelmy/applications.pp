@@ -6,4 +6,5 @@ class people::haelmy::applications
   include textmate::commandline
   include alfred
   include colloquy
+  include keepassx
 }
