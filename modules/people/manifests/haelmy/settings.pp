@@ -4,4 +4,5 @@ class people::haelmy::settings {
   include osx::global::deactivate_natural_mouse_scrolling
   include osx::global::unbind_fn_keys
   include osx::global::do_not_reopen_windows_on_login
+  include osx::global::enable_access_for_assistive_devices
 }
