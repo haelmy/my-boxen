@@ -10,6 +10,10 @@ def github(name, version, options = nil)
   mod name, version, :github_tarball => options[:repo]
 end
 
+def haelmy(name, version)
+  mod name, version, :github_tarball => "haelmy/puppet-#{name}"
+end
+
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
@@ -36,15 +40,14 @@ github "sudo",       "1.0.0"
 
 github "property_list_key", "0.1.0"
 github "osx", "1.3.0"
-
 github "chrome", "1.1.0"
 github "iterm2", "1.0.2"
 github "textmate", "1.1.0"
 github "colloquy", "1.0.0"
-github "alfred", "1.0.3", :repo => "haelmy/puppet-alfred"
 github "keepassx", "1.0.0"
-github "wuala", "0.0.1", :repo => "haelmy/puppet-wuala"
 github "zsh", "1.0.0"
-github "ohmyzsh", "0.0.1", :repo => "haelmy/puppet-ohmyzsh"
 
+haelmy "alfred", "1.0.3"
+haelmy "ohmyzsh", "0.0.1"
+haelmy "wuala", "0.0.1"
 
