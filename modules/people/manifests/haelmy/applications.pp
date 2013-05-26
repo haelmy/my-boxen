@@ -8,4 +8,5 @@ class people::haelmy::applications
   include colloquy
   include keepassx
   include wuala
+  include zsh
 }
