@@ -10,4 +10,5 @@ class people::haelmy::applications
   include wuala
   include zsh
   include ohmyzsh
+  include java
 }
