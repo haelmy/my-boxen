@@ -11,4 +11,5 @@ class people::haelmy::applications
   include zsh
   include ohmyzsh
   include java
+  include openoffice
 }
