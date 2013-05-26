@@ -9,4 +9,5 @@ class people::haelmy::applications
   include keepassx
   include wuala
   include zsh
+  include ohmyzsh
 }

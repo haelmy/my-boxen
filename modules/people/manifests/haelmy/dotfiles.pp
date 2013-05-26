@@ -11,4 +11,10 @@ class people::haelmy::dotfiles {
     target  => "${dotfiles_dir}/gitconfig",
     require => Repository[$dotfiles_dir] 
   }
+
+  file { "${home}/.zshrc":
+    ensure  => link,
+    target  => "${dotfiles_dir}/zshrc",
+    require => Repository[$dotfiles_dir]
+  }
 }

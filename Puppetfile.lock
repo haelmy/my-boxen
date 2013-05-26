@@ -104,6 +104,11 @@ GITHUBTARBALL
     alfred (1.0.3)
 
 GITHUBTARBALL
+  remote: haelmy/puppet-ohmyzsh
+  specs:
+    ohmyzsh (0.0.1)
+
+GITHUBTARBALL
   remote: haelmy/puppet-wuala
   specs:
     wuala (0.0.1)
@@ -128,6 +133,7 @@ DEPENDENCIES
   keepassx (= 1.0.0)
   nginx (= 1.4.0)
   nodejs (= 2.2.0)
+  ohmyzsh (= 0.0.1)
   osx (= 1.3.0)
   property_list_key (= 0.1.0)
   repository (= 2.0.2)

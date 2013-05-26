@@ -45,5 +45,6 @@ github "alfred", "1.0.3", :repo => "haelmy/puppet-alfred"
 github "keepassx", "1.0.0"
 github "wuala", "0.0.1", :repo => "haelmy/puppet-wuala"
 github "zsh", "1.0.0"
+github "ohmyzsh", "0.0.1", :repo => "haelmy/puppet-ohmyzsh"
 
 
