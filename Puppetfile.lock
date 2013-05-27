@@ -94,6 +94,11 @@ GITHUBTARBALL
     textmate (1.1.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-wget
+  specs:
+    wget (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-zsh
   specs:
     zsh (1.0.0)
@@ -153,6 +158,7 @@ DEPENDENCIES
   stdlib (= 4.0.2)
   sudo (= 1.0.0)
   textmate (= 1.1.0)
+  wget (= 1.0.0)
   wuala (= 0.0.1)
   zsh (= 1.0.0)
 

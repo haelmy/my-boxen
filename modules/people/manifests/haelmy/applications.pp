@@ -12,4 +12,5 @@ class people::haelmy::applications
   include ohmyzsh
   include java
   include openoffice
+  include wget
 }
