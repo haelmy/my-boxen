@@ -13,4 +13,5 @@ class people::haelmy::applications
   include java
   include openoffice
   include wget
+  include vlc
 }

@@ -48,6 +48,7 @@ github "keepassx", "1.0.0"
 github "zsh", "1.0.0"
 github "java", "1.1.0"
 github "wget", "1.0.0"
+github "vlc", "1.0.1"
 
 haelmy "alfred", "1.0.3"
 haelmy "ohmyzsh", "0.0.1"
