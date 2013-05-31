@@ -49,9 +49,9 @@ github "zsh", "1.0.0"
 github "java", "1.1.0"
 github "wget", "1.0.0"
 github "vlc", "1.0.1"
+github "skype", "1.0.2"
 
 haelmy "alfred", "1.0.3"
 haelmy "ohmyzsh", "0.0.1"
 haelmy "wuala", "0.0.1"
 haelmy "openoffice", "1.1.0"
-

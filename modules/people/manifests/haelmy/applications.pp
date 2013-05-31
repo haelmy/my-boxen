@@ -14,4 +14,5 @@ class people::haelmy::applications
   include openoffice
   include wget
   include vlc
+  include skype
 }
